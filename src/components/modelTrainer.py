@@ -101,8 +101,6 @@ class ModelTrainer:
             logging.info("Error occuered while initiating the model training")
             raise CustomException(e,sys)
 
-            
-
 
             
             
