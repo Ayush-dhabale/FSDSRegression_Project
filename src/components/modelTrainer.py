@@ -24,6 +24,18 @@ class ModelTrainer:
 
     #Create A function to initiate model training
     def initiate_model_training(self,train_arr,test_arr):
+        '''
+            Parameters:
+            train_arr -> array of training data set
+            test_arr -> array of testing data set
+
+
+            Purpose:
+            1.Splits the train,test data as X_train,test and y_train,test
+            2.Evaluates the model score
+            3.Finds the best model
+            4.Saves it as pickle file
+        '''
         try:
             #Split the train,test data as X_train,test and y_train,test
             logging.info("Splitting the train,test data as X_train,test and y_train,test")
